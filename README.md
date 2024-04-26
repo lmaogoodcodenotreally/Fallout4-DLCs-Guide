@@ -36,3 +36,25 @@ FILE							                CRC			          MD5						                      SHA-1	
 .\DLCworkshop03.cdx				        2369871607	    	e0e907c930b51a4f7ed3aa11b2450c70		c4c3896f1fc5227664b9126e72978d111ac9b20c		980516bdb4da447c949beaa21f4c7580f74c0c0937149bf676ef122afbc74b81		c2e578d632bb0046bd5d0c3180f9da84c9c01af706c08da6670147057e22555a9a8f98948f63375b5df4e0c26ed6fcc58f8ab1f7c7ab632997c3e8cfde0daf01
 .\DLCworkshop03.esm				        3758661563  	  	aa1c1044e0105206db1742232763d2c2		94a3e2d6893031e93855c45ade3b4e2168305d85		08ece321cc224a48164342d258edf14e4640444efe56de900f4f932282368b06		9e7ccf05ae131657a89d1000e336666041056a246e0750e753dac0bb793a66cf432ad323213f1c8552970cf34ecf4d56e3e7cc0397117e693de52a9fbefa4861
 ```
+- Place those file in `${SteamLibrary}\common\Fallout4\Data\.<here>`
+- Then get CreamAPI / CreamInstaller & patch Fallout 4 using Koaloader/SmokeAPI method using `version.dll` (I think both works but Koaloader is reliable with Fallout4, if you have issue with it, try default)
+- Don't install / activate HD texture as they suck and eat FPS for no reason. (Even on 4.7GHz 16 core CPU & 24Gb VRAM & 32Gb ram with only NVMe this sucks don't use even on NASA PC)
+- Now you can start Fallout 4 from either steam or `${SteamLibrary}\common\Fallout4\Fallout4.exe`
+- You should now have all DLC installed and working.
+
+**From API DLCs**
+
+![image](https://github.com/lmaogoodcodenotreally/Fallout4-DLCs-Guide/assets/147619006/5a77a68a-f52b-4810-9c65-62ae62b5520a)
+
+**Real DLCs**
+![image](https://github.com/lmaogoodcodenotreally/Fallout4-DLCs-Guide/assets/147619006/78fee94a-c81d-4ef8-876a-96ea60aab20d)
+
+
+
+This method is very known, I wanted to make this so you can check DLC files list as well as your DLC file signatures, please note that the signature may change due to updates, however it's unlikely that they will.
+
+This method works on most offline games but won't work on:
+- Trial Fusion (Instaban from online with a ban message every time you try going online, no documentation no appeal will last at least a month)
+- Ubisoft games (Since Trial Fusion have it, I believe most Ubisoft games are a no go as well)
+- Activision games (serverside checks, maybe older CoD could work but latest are protected & only serverside, no file needed client side.)
+- Some free steam store games with premium upgrades/pro upgrades (you have 50% chances there is a server side checks if app has some users.)
