@@ -54,7 +54,7 @@ FILE							                CRC			          MD5						                      SHA-1	
 This method is very known, I wanted to make this so you can check DLC files list as well as your DLC file signatures, please note that the signature may change due to updates, however it's unlikely that they will.
 
 This method works on most offline games but won't work on:
-- Trial Fusion (Instaban from online with a ban message every time you try going online, no documentation no appeal will last at least a month)
-- Ubisoft games (Since Trial Fusion have it, I believe most Ubisoft games are a no go as well)
-- Activision games (serverside checks, maybe older CoD could work but latest are protected & only serverside, no file needed client side.)
-- Some free steam store games with premium upgrades/pro upgrades (you have 50% chances there is a server side checks if app has some users.)
+- **Trial Fusion** (Instaban from online with a ban message every time you try going online, no documentation no appeal will last at least a month)
+- **Ubisoft games** (Since Trial Fusion have it, I believe most Ubisoft games are a no go as well)
+- **Activision games** (serverside checks, maybe older CoD could work but latest are protected & only serverside, no file needed client side.)
+- **Some free steam store games with premium upgrades/pro upgrades** (you have 50% chances there is a server side checks if app has some users.)
